@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background:  url(https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?t=st=1652289208~exp=1652289808~hmac=67af3b527e651563711a2f34669acc2ae5036b01d89d2570d5d6131ded359239&w=900);
+    background-size: cover;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form
+{
+    background: #957d52c2;
+    padding: 30px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 400px;
+    
+}
+
+form h2{
+    color: white;
+    font-size: 40px;
+    padding: 45px;
+    user-select: none;
+}
+
+form input{
+    background-color: rgba(0, 0, 0, 0.245);
+    border-style: none;
+    height: 13%;
+    width: 65%;
+    border: 2px;
+    border-radius: 80px;
+    border-style:solid;
+    outline: none;
+    margin: 8px;
+    text-align:center;
+    color: white;
+}
+
+form input[type="submit"]{
+    margin: 25px;
+width: 40%;
+color: black;
+
+}
+form input[type="text"],input[type="password"]{
+border-color: black;
+font-size: 15px;
+}
+form input[type="submit"]{
+    background-color: white;
+    border: none;
+
+}
+form input[type="submit"]:hover{
+    background-color: #ffda79;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgb(80, 80, 80);
+    color: rgb(79, 79, 79);
+
+}
+form input[type="submit"]:active{
+    background-color: #ccae62;
+  box-shadow: 0 0 6px rgba(88, 88, 88, 0.748);
+  
+}
+
