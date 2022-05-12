@@ -21,7 +21,7 @@
     
 <form action="">
     <h2>Giriş</h2>
-    <input type="text" name="e-posta" placeholder="E-posta">
+    <input type="email" name="e-posta" placeholder="E-posta">
     <input type="password" name="Şifre" placeholder="Şifre">
     <input type="submit" value="Giriş Yap">
 </form>
