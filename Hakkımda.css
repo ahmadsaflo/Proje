@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+    
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hakkimdanav{
+    background-color: rgb(105, 105, 105);
+    width: 80%;
+    height: 15vh;
+    border-radius: 0 0 15px 15px   ;
+    
+}
+.hakkimdanav ul{
+    list-style: none;
+    display: flex;
+    
+}
+.hakkimdanav ul li {
+    padding: 5.5vh;
+    
+}
+.hakkimdanav ul li a h3{
+    font-family: 'Poppins', sans-serif;
+
+}
+.hakkimdanav ul li a h4{
+    font-family: 'Poppins', sans-serif;
+}
+.hakkimdanav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
