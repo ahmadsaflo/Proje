@@ -1,0 +1,55 @@
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body
+{
+background-image: url(https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1652367765~exp=1652368365~hmac=3f7ba554b6e948d6fdc260790f21a6bd9d872b6ca3891307a83f7a4a1043f619);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Poppins', sans-serif;
+display:  flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.navbar
+{
+    background: #222222;
+    border-radius: 0 0 15px 15px;
+    height: 80px; 
+    width: 80%; 
+
+}
+.navbar ul
+{
+   display: inline-flex; 
+    list-style: none;
+
+}
+.navbar ul li{
+    width: 30%;
+    margin: 10px;
+    margin-right: 15px;
+    padding: 18px;
+    justify-content: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar ul li:hover{
+    background: #646464;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.navbar ul li a:focus{
+    color: #ffda79;
+    
+}
+
